@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
 body{
     font-family: 'Khula', sans-serif;
+    font-size: 15px;
+    color: #999;
 
 }
 .alignleft{
@@ -30,16 +32,49 @@ h4,
 h5,
 h6{
     margin:0 0 15px;
-    font-weight: 700;
+    font-weight: 400;
+    color: #373737;
 }
 
 a:hover {
     text-decoration: none;
 }
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.mainmenu li {
+    position: relative;
+    display: inline-block;
+}
+.mainmenu li a {
+    display: block;
+    color: #888;
+    padding: 12px 15px;
+   
+}
+a {
+    text-decoration: none;
+}
 
 
+.boxed-btn {
+    display: inline-block;
+    background: #ec4171;
+    color: #fff;
+    font-size: 14px;
+    padding: 13px 25px;
+    border-radius: 2px;
+}
 
-
+.hero-area{
+   font-weight: 300;
+}
+.hero-area h1{
+    font-size: 40px;
+    max-width: 400px;
+}
 
 
 
